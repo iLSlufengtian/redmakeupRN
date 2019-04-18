@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
-export default class Cart extends React.Component {
+export default class List extends React.Component {
     render() {
         return(
             <View>
-                <Text>购物车</Text>
+                <Text>列表页</Text>
             </View>
         )
     }

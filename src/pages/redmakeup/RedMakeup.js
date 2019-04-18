@@ -5,7 +5,7 @@ export default class RedMakeup extends React.Component {
     render() {
         return(
             <View>
-                <Text>00000</Text>
+                <Text>首页</Text>
             </View>
         )
     }
