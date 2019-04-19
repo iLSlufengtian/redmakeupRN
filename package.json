@@ -9,6 +9,8 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.4",
+    "react-native-cardview": "^2.0.2",
+    "react-native-swiper": "^1.5.14",
     "react-native-tab-navigator": "^0.3.4"
   },
   "devDependencies": {

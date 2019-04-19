@@ -4,11 +4,14 @@ import {
 
 export default StyleSheet.create({
     imageSize:{
-        width:24,
-        height:24
+        width:20,
+        height:20
     },
-    // titleStyle:{
-    //     color:'#d81e06',
-    //     fontSize: 16
-    // }
+    titleStyle:{
+        color:'#d81e06',
+        // fontSize: 16
+    },
+    selectedtitle:{
+        color:'#d81e06',
+    }
 })

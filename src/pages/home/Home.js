@@ -33,6 +33,7 @@ export default class Home extends Component{
           selected={this.state.selectedTab === 'home'}
           title="首页"
         //   titleStyle={styles.titleStyle}
+          selectedTitleStyle={styles.selectedtitle}
           renderIcon={() => <Image style={styles.imageSize} source={shouye} />}
           renderSelectedIcon={() => <Image style={styles.imageSize} source={shouyeRed} />}
         //   badgeText="1"
@@ -43,6 +44,7 @@ export default class Home extends Component{
         <TabNavigator.Item
           selected={this.state.selectedTab === 'list'}
           title="列表"
+          selectedTitleStyle={styles.selectedtitle}
           renderIcon={() => <Image style={styles.imageSize} source={list} />}
           renderSelectedIcon={() => <Image style={styles.imageSize} source={listRed} />}
         //   badgeText="1"
@@ -52,6 +54,7 @@ export default class Home extends Component{
         <TabNavigator.Item
           selected={this.state.selectedTab === 'zhongchou'}
           title="众筹"
+          selectedTitleStyle={styles.selectedtitle}
           renderIcon={() => <Image style={styles.imageSize} source={zhongchou} />}
           renderSelectedIcon={() => <Image style={styles.imageSize} source={zhongchouRed} />}
         //   badgeText="1"
@@ -61,6 +64,7 @@ export default class Home extends Component{
         <TabNavigator.Item
           selected={this.state.selectedTab === 'cart'}
           title="购物车"
+          selectedTitleStyle={styles.selectedtitle}
           renderIcon={() => <Image style={styles.imageSize} source={cart} />}
           renderSelectedIcon={() => <Image style={styles.imageSize} source={cartRed} />}
         //   renderBadge={() => <View><Text>1</Text></View>}
@@ -70,6 +74,7 @@ export default class Home extends Component{
         <TabNavigator.Item
           selected={this.state.selectedTab === 'mine'}
           title="我的"
+          selectedTitleStyle={styles.selectedtitle}
           renderIcon={() => <Image style={styles.imageSize} source={mine} />}
           renderSelectedIcon={() => <Image style={styles.imageSize} source={mineRed} />}
         //   badgeText="1"
